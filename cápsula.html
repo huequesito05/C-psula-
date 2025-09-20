@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Cápsula del Tiempo</title>
+  <link rel="stylesheet" href="capsula.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Cápsula del Tiempo</h1>
+    <p>Tiempo transcurrido desde la creación:</p>
+    <p><span class="contador" id="contador"></span></p>
+  </header>
+
+  <main>
+    <section id="biografia">
+      <h2>Sobre mí</h2>
+      <p>mi nimbre es jose eduardo hernandez hueque y esta es una capsula para mi yo del futuro que escribo desde haorita.</p>
+    </section>
+
+    <section id="metas">
+      <h2>Mis sueños y mis metas</h2>
+      <ul>
+        <li>mi mayor sueño es viajar a la playa vivir lejos de la sociedad alado de mi mujercita hermosa DANNA PAOLA.</li>
+        <li>despues de vivir y tener un salario estable tener 2 hijos.</li>
+        <li>estudiar y ser un muy bueno mecanico industrial</li>
+      </ul>
+    </section>
+
+    <section id="momentos">
+      <h2>Momentos Importantes</h2>
+      <ul>
+        <li>aquella nocje del 5 de septiembre del 2024</li>
+        <li>la primera vez que jugue en un equipo de futbol</li>
+      </ul>
+    </section>
+
+    <section id="cultura">
+      <h2>Cultura Actual</h2>
+      <p>Música favorita me gusta mucho el rap en especial de c kan c.r.o.</p>
+      <p>pelicula que mas me gusta tres metros sobre el cielo</p>
+      <p>me gusta demaciado los chocolates y vestirme con ropa ancha</p>
+    </section>
+
+    <section id="carta-futuro">
+      <h2>Carta de lo que quiero en el futuro</h2>
+      <textarea id="mensaje-futuro" rows="10" placeholder="Escribe aquí tu mensaje..."></textarea>
+      <br>
+      <button onclick="guardarCarta()">Guardar para el futuro</button>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería de recuerdos</h2>
+      <input type="file" id="inputImagen" accept="image/*">
+      <div id="imagenes"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Realizado por jose Eduardo Hernandez Hueque </p>
+  </footer>
+
+  <script src="capsula.js"></script>
+</body>
